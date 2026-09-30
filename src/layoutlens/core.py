@@ -100,7 +100,8 @@ def spatial_tables(words, row_tolerance=8, gap=24):
                 abs(a["box"][0] - b["box"][0]) <= 18
                 for a, b in zip(cells, active[-1], strict=True)
             )
-            and cells[0]["box"][1] - active[-1][0]["box"][3] < 50
+            and cells[0]["box"][1] - active[-1][0]["box"][3]
+            < max(50, 4 * (active[-1][0]["box"][3] - active[-1][0]["box"][1]))
         )
         if not matches:
             if len(active) >= 2:
