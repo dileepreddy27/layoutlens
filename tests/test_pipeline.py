@@ -136,3 +136,13 @@ def test_real_ocr_receipt():
     assert page["source"] == "tesseract"
     assert [[c["text"] for c in r] for r in page["tables"][0]["rows"]] == expected
     assert all(w["confidence"] is not None for w in page["words"])
+
+
+def test_spatial_rows_scale_with_ocr_text_height():
+    words = [
+        Word("Item", [80, 100, 145, 132]),
+        Word("Amount", [700, 100, 820, 132]),
+        Word("Services", [80, 190, 230, 222]),
+        Word("120.00", [700, 190, 810, 222]),
+    ]
+    assert len(spatial_tables(words)[0]["rows"]) == 2
