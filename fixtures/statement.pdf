@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 824 >>
+stream
+BT /F1 20 Tf 45 750 Td (NORTHSTAR | Synthetic financial statement) Tj ET
+45 690 m 555 690 l S
+45 650 m 555 650 l S
+45 610 m 555 610 l S
+45 570 m 555 570 l S
+45 530 m 555 530 l S
+45 530 m 45 690 l S
+255 530 m 255 690 l S
+405 530 m 405 690 l S
+555 530 m 555 690 l S
+BT /F1 12 Tf 55 665 Td (Account) Tj ET
+BT /F1 12 Tf 265 665 Td (2025) Tj ET
+BT /F1 12 Tf 415 665 Td (2026) Tj ET
+BT /F1 12 Tf 55 625 Td (Revenue) Tj ET
+BT /F1 12 Tf 265 625 Td (1,250) Tj ET
+BT /F1 12 Tf 415 625 Td (1,480) Tj ET
+BT /F1 12 Tf 55 585 Td (Expenses) Tj ET
+BT /F1 12 Tf 265 585 Td (\(820\)) Tj ET
+BT /F1 12 Tf 415 585 Td (\(910\)) Tj ET
+BT /F1 12 Tf 55 545 Td (Net income) Tj ET
+BT /F1 12 Tf 265 545 Td (430) Tj ET
+BT /F1 12 Tf 415 545 Td (570) Tj ET
+BT /F1 11 Tf 45 490 Td (Original synthetic fixture. Not an actual company's financial data.) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1186
+%%EOF
